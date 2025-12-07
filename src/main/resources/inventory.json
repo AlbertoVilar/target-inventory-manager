@@ -1,30 +1,29 @@
 {
-  "items": [
+  "estoque": [
     {
-      "sku": "SKU-001",
-      "name": "Produto A",
-      "quantity": 100,
-      "minQuantity": 10
+      "codigoProduto": 101,
+      "descricaoProduto": "Caneta Azul",
+      "estoque": 150
     },
     {
-      "sku": "SKU-002",
-      "name": "Produto B",
-      "quantity": 50,
-      "minQuantity": 5
-    }
-  ],
-  "movements": [
-    {
-      "sku": "SKU-001",
-      "type": "ENTRY",
-      "quantity": 20,
-      "timestamp": "2025-12-01T10:00:00Z"
+      "codigoProduto": 102,
+      "descricaoProduto": "Caderno Universitário",
+      "estoque": 75
     },
     {
-      "sku": "SKU-002",
-      "type": "EXIT",
-      "quantity": 10,
-      "timestamp": "2025-12-02T15:30:00Z"
+      "codigoProduto": 103,
+      "descricaoProduto": "Borracha Branca",
+      "estoque": 200
+    },
+    {
+      "codigoProduto": 104,
+      "descricaoProduto": "Lápis Preto HB",
+      "estoque": 320
+    },
+    {
+      "codigoProduto": 105,
+      "descricaoProduto": "Marcador de Texto Amarelo",
+      "estoque": 90
     }
   ]
 }

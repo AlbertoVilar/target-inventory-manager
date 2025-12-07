@@ -1,11 +1,18 @@
 package com.albertovilar.domain.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.util.UUID;
 
 public class StockItem {
 
+    @JsonProperty("codigoProduto")
     private int productCode;
+
+    @JsonProperty("descricaoProduto")
     private String description;
+
+    @JsonProperty("estoque")
     private int stock;
 
     public StockItem() {}
